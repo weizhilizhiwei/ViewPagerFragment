@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e0e0e0"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/id_switch_tab_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/id_chat_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:text="聊天"
+            android:textColor="@drawable/selector_color"
+            android:padding="10dp"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/id_friend_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:text="好友"
+            android:padding="10dp"
+            android:textColor="@drawable/selector_color"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/id_contacts_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:text="通讯录"
+            android:padding="10dp"
+            android:textColor="@drawable/selector_color"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/id_tab_line_iv"
+        android:layout_width="200dp"
+        android:layout_height="5dp"
+        android:background="#ff0000" >
+    </View>
+
+</LinearLayout>
